@@ -1,8 +1,30 @@
 .pset-logo {
-  width: 30%;
+  width: 20%;
   object-fit: cover;
 }
 .trophy {
   width: 20%;
   object-fit: cover;
+}
+.school-logo {
+  max-width: 80%;
+}
+.orange-text {
+  color: orange;
+}
+.project-img {
+  margin: auto;
+  display: block;
+}
+.carousel-item {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.carousel-section {
+  background: #777;
+}
+.platform {
+  width: 100%;
+  height: 15vw;
+  object-fit: contain;
 }

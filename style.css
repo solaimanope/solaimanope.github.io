@@ -28,3 +28,16 @@
   height: 15vw;
   object-fit: contain;
 }
+.intro {
+  background-image: url("images/wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 100vh;
+  position: relative;
+}
+.text-intro {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}

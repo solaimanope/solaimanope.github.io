@@ -2,6 +2,10 @@
   width: 20%;
   object-fit: cover;
 }
+.train-logo {
+  width: 10%;
+  object-fit: cover;
+}
 .trophy {
   width: 20%;
   object-fit: cover;
@@ -38,6 +42,12 @@
 }
 .text-intro {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   text-align: center;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  /* z-index: 100; */
 }

@@ -11,13 +11,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
       crossorigin="anonymous"
     >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Mohammad Solaiman</title>
   </head>
   <body>
     <!-- Navbar -->
-    <!-- <nav
-      class="navbar navbar-expand-lg bg-dark navbar-dark h5"
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-dark h5 navbar-fixed-top"
       id="navbar"
     >
       <div class="container">
@@ -38,6 +39,9 @@
               <a href="#education" class="nav-link">Education</a>
             </li>
             <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
               <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
@@ -46,7 +50,7 @@
           </ul>
         </div>
       </div>
-    </nav> -->
+    </nav>
 
     <!-- Introduction -->
     <section class="text-dark intro">
@@ -57,19 +61,20 @@
         <h3>
           I have spent half a decade honing my coding skills doing competitive programming. I am an International Master at Codeforces and have won several national programming competitions.
           I also have interest in developing Artificial Intelligence for simple to complex games. 
-          I am a Master at CodinGame. I have built AI bots to play several games.
+          I am a Master at CodinGame. I have built AI bots to play a handful of games.
         </h3>
       </div>
     </section>
 
 
     <!-- Education -->
-    <section class="bg-dark text-light p-3 text-center" id="education">
+    <section class="bg-dark text-light p-5 text-center" id="education">
+      <div class="container" style="height: 20px;"></div>
       <div class="container">
         <h1>Education</h1>
-        <div class="container text-sm-start">
+        <div class="container text-sm-start p-5">
           <div class="col">
-            <div class="row align-items-center justify-content-between p-2">
+            <div class="row align-items-center justify-content-between p-3">
               <div class="col-md-2 mx-auto">
                 <img src="images/buet_logo.png" alt="" class="img-fluid school-logo" />
               </div>
@@ -80,7 +85,7 @@
                 <h6>April 2017 - April 2022</h6>
               </div>
             </div>
-            <div class="row align-items-center justify-content-between p-2">
+            <div class="row align-items-center justify-content-between p-3">
               <div class="col-md-2 mx-auto">
                 <img src="images/mohsin.png" alt="" class="img-fluid school-logo" />
               </div>
@@ -93,7 +98,7 @@
                 <h6>July 2014 - July 2016</h6>
               </div>
 
-              <div class="row align-items-center justify-content-between p-2">
+              <div class="row align-items-center justify-content-between p-3">
                 <div class="col-md-2 mx-auto">
                   <img src="images/cghs.png" alt="" class="img-fluid school-logo" />
                 </div>
@@ -110,16 +115,86 @@
       </div>
     </section>
 
+
+    <!-- Skills -->
+    <section class="bg-light text-dark p-5 text-center" id="skills">
+      <div class="container" style="height: 20px;"></div>
+      <div class="container">
+        <h1>
+          Skills
+        </h1>
+        <div class="row p-3">
+          <div class="col">
+            <i class="devicon-cplusplus-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">c++</div>
+          </div>
+          <div class="col">
+            <i class="devicon-java-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">java</div>
+          </div>
+          <div class="col">
+            <i class="devicon-python-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">python</div>
+          </div>
+          <div class="col">
+            <i class="devicon-git-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">git</div>
+          </div>
+          <div class="col">
+            <i class="devicon-linux-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">linux</div>
+          </div>
+          <div class="col">
+            <i class="devicon-postgresql-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">postgresql</div>
+          </div>
+          <div class="col">
+            <i class="devicon-html5-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">html</div>
+          </div>
+          <div class="col">
+            <i class="devicon-css3-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">css</div>
+          </div>
+          <div class="col">
+            <i class="devicon-bootstrap-plain" style="font-size: 100px;" ></i>
+            <div class="lead fw-bold">bootstrap</div>
+          </div>
+        </div>
+        
+        <div class="container text-sm-start lead p-3">
+          <h3>Also skilled in:</h3>
+          <ul>
+            <li>Algorithms and Data Structures</li>
+            <li>Dynamic Programming</li>
+            <li>Computational Geometry</li>
+            <li>Backtracking and Search Tree</li>
+          </ul>
+          <h3>Also worked with:</h3>
+          <ul>
+            <li>JavaFX</li>
+            <li>iGraphics</li>
+            <li>LaTeX</li>
+            <li>OpenGL</li>
+            <li>pandas</li>
+            <li>numpy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- Projects -->
-    <section class="carousel-section p-3" id="projects">
+    <section class="carousel-section p-5" id="projects">
+      <div class="container" style="height: 25px;"></div>
       <h1 class="text-center">Projects</h1>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner pb-5">
           <div class="carousel-item active">
             <div class="row align-items-center justify-content-between p-5 mx-auto">
               <div class="col-md-5">
@@ -165,6 +240,20 @@
               </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-between p-5 mx-auto">
+              <div class="col-md-5">
+                <img src="images/chainreaction.png" alt="" class="img-fluid project-img" />
+              </div>
+              <div class="col-md-7">
+                <h2>Chain Reaction AI Agent</h2>
+                <h5>Megatron747 is a bot playing the 2 player 'Chain Reaction' game.<br>
+                  It was written in C++ and developed to participate in the AI Contest : BUET CSE FEST 2019.<br>
+                  - Simple yet contest-winning Heuristics <br>
+                  - Iterative Deepening Search on MiniMax Algorithm</h5>
+              </div>
+            </div>
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,7 +267,8 @@
     </section>
 
     <!-- CP Experience -->
-    <section class="bg-dark text-light p-3 text-center" id="cp-xp">
+    <section class="bg-dark text-light pt-5 text-center" id="cp-xp">
+      <div class="container" style="height: 25px;"></div>
       <!-- Individual Contest -->
       <div class="container p-3">
         <h1>Competitive Programming Performance</h1>
@@ -297,27 +387,27 @@
         <h1>Training University Contestants</h1>
         <div class="card-group text-dark">
           <div class="card">
-            <img src="images/jnu.png" class="card-img-top mx-auto pset-logo" alt="...">
+            <img src="images/jnu.png" class="card-img-top mx-auto train-logo" alt="...">
             <div class="card-body">
               <h5 class="card-title">Jagannath University</h5>
               <p class="card-text">November 2021 - Present</p>
             </div>
           </div>
-          <div class="card">
+          <!-- <div class="card">
             <img src="images/iubat.png" class="card-img-top mx-auto pset-logo" alt="...">
             <div class="card-body">
               <h5 class="card-title">International University of Business Agriculture and Technology</h5>
               <p class="card-text">February 2022 - Present</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- AI -->
 
-    <section class="bg-dark text-light p3 text-center">
-      <div class="container pt-3">
+    <section class="bg-dark text-light p-5 text-center">
+      <div class="container">
         <h1>Developing AI to Play Games</h1>
         <div class="card-group text-dark">
           <div class="card">

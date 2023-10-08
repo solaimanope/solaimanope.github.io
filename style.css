@@ -19,6 +19,7 @@
 .project-img {
   margin: auto;
   display: block;
+  border-radius: 5%;
 }
 .carousel-item {
   padding-left: 5%;
